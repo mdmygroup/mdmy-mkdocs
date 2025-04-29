@@ -1,0 +1,125 @@
+/* MDMY Documentation Custom Styles */
+
+/* Improve readability with custom typography */
+.md-content {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Custom heading styles */
+.md-content h1 {
+  font-weight: 600;
+  color: #2c3e50;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+.md-content h2 {
+  font-weight: 600;
+  color: #2c3e50;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #eaecef;
+}
+
+/* Custom link styling */
+.md-content a:not(.md-button) {
+  color: #3f51b5;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(63, 81, 181, 0.4);
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.md-content a:not(.md-button):hover {
+  color: #5c6bc0;
+  border-bottom-color: rgba(92, 107, 192, 0.9);
+}
+
+/* Custom table styling */
+.md-typeset table:not([class]) {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #f5f7fa;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tr:nth-child(2n) {
+  background-color: #f8f9fb;
+}
+
+/* Custom admonition/callout styling */
+.md-typeset .admonition {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Code block enhancements */
+.md-typeset pre > code {
+  border-radius: 6px;
+}
+
+/* Custom blockquote styling */
+.md-typeset blockquote {
+  border-left: 4px solid #3f51b5;
+  background-color: #f7f7ff;
+}
+
+/* Print-specific styles */
+@media print {
+  .md-typeset {
+    line-height: 1.4;
+  }
+  
+  .md-typeset a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+  
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 1cm !important;
+  }
+  
+  .md-typeset pre {
+    white-space: pre-wrap;
+  }
+  
+  .md-sidebar, .md-header, .md-tabs, .md-footer {
+    display: none !important;
+  }
+  
+  /* Add page breaks before major sections */
+  h1, h2 {
+    page-break-before: always;
+  }
+  
+  /* Avoid page breaks inside code blocks and tables */
+  pre, table {
+    page-break-inside: avoid;
+  }
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: #3f51b5;
+  }
+}
+
+/* Custom logo padding */
+.md-header__button.md-logo {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+/* Custom footer styling */
+.md-footer-meta {
+  background-color: #1a237e;
+}
+
+/* Custom index page enhancement */
+.md-content__inner > :first-child {
+  margin-top: 0;
+}
