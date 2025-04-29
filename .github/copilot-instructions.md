@@ -1,0 +1,3 @@
+You are tasked to create a complete, ready-to-use MkDocs documentation repository that uses the Material for MkDocs theme.
+This repository will host technical or business documentation coming from multiple Markdown files organized across folders.
+The project must follow the best practices of documentation sites, ensuring scalability, maintainability, and ease of contribution — even for non-technical users.
