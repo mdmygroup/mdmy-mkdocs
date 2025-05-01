@@ -27,14 +27,14 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: blue
-      accent: indigo
+      primary: "#53677a"  # Muted Blue - Primary Text and Icons
+      accent: "#415a77"    # Dark Blue - Accent 1
       toggle:
         icon: material/toggle-switch-off-outline
         name: Passer au mode sombre
     - scheme: slate
-      primary: blue
-      accent: indigo
+      primary: "#53677a"  # Muted Blue - Primary Text and Icons
+      accent: "#7fcdb8"    # Soft Green - Accent 3
       toggle:
         icon: material/toggle-switch
         name: Passer au mode clair
