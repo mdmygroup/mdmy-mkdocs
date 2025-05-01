@@ -1,140 +1,22 @@
-/* MDMY Documentation Custom Styles */
-
-/* Improve readability with custom typography */
-.md-content {
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-/* Custom heading styles */
-.md-content h1 {
-  font-weight: 600;
-  color: #2c3e50;
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid #eaecef;
-}
-
-.md-content h2 {
-  font-weight: 600;
-  color: #2c3e50;
-  padding-bottom: 0.2em;
-  border-bottom: 1px solid #eaecef;
-}
-
-/* Custom link styling */
-.md-content a:not(.md-button) {
-  color: #3f51b5;
-  text-decoration: none;
-  border-bottom: 1px dotted rgba(63, 81, 181, 0.4);
-  transition: color 0.2s, border-bottom-color 0.2s;
-}
-
-.md-content a:not(.md-button):hover {
-  color: #5c6bc0;
-  border-bottom-color: rgba(92, 107, 192, 0.9);
-}
-
-/* Custom table styling */
-.md-typeset table:not([class]) {
-  border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.md-typeset table:not([class]) th {
-  background-color: #f5f7fa;
-  color: #34495e;
-  font-weight: 600;
-}
-
-.md-typeset table:not([class]) tr:nth-child(2n) {
-  background-color: #f8f9fb;
-}
-
-/* Custom admonition/callout styling */
-.md-typeset .admonition {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-}
-
-/* Code block enhancements */
-.md-typeset pre > code {
-  border-radius: 6px;
-}
-
-/* Custom blockquote styling */
-.md-typeset blockquote {
-  border-left: 4px solid #3f51b5;
-  background-color: #f7f7ff;
-}
-
-/* Print-specific styles */
-@media print {
-  .md-typeset {
-    line-height: 1.4;
-  }
-  
-  .md-typeset a {
-    color: #000 !important;
-    text-decoration: underline !important;
-  }
-  
-  .md-content__inner {
-    margin: 0 !important;
-    padding: 1cm !important;
-  }
-  
-  .md-typeset pre {
-    white-space: pre-wrap;
-  }
-  
-  .md-sidebar, .md-header, .md-tabs, .md-footer {
-    display: none !important;
-  }
-  
-  /* Add page breaks before major sections */
-  h1, h2 {
-    page-break-before: always;
-  }
-  
-  /* Avoid page breaks inside code blocks and tables */
-  pre, table {
-    page-break-inside: avoid;
-  }
-}
-
-/* Responsive improvements */
-@media screen and (max-width: 76.1875em) {
-  .md-nav--primary .md-nav__title {
-    background-color: #3f51b5;
-  }
-}
-
-/* Custom logo padding */
-.md-header__button.md-logo {
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-/* Custom footer styling */
-.md-footer-meta {
-  background-color: #1a237e;
-}
-
-/* Custom index page enhancement */
-.md-content__inner > :first-child {
-  margin-top: 0;
-}
-
 /* Styles personnalisés pour MDMY GROUP */
 
 :root {
-  --md-primary-fg-color: #0052cc;
-  --md-primary-fg-color--light: #4d8ae8;
-  --md-primary-fg-color--dark: #00368a;
-  --md-accent-fg-color: #ff9900;
+  /* Couleurs de base de MDMY Group */
+  --md-primary-bg-color: #f5f5f5;         /* Primary Background (Light Gray) */
+  --md-primary-fg-color: #53677a;         /* Primary Text and Icons (Muted Blue) */
+  --md-primary-fg-color--light: #90b0ba;  /* Accent 2 (Soft Teal) */
+  --md-primary-fg-color--dark: #415a77;   /* Accent 1 (Dark Blue) */
+  --md-accent-fg-color: #7fcdb8;          /* Accent 3 (Soft Green) */
+  --md-accent-bg-color: #e0e1dd;          /* Accent 5 (Light Grayish Blue) */
+  --md-accent-highlight: #e5cb95;         /* Accent 4 (Muted Gold) */
+  --md-text-color: #53677a;               /* Primary Text (Muted Blue) */
+  --md-secondary-text-color: #777777;     /* Secondary Text (Gray) */
+  --md-footer-text-color: #646464;        /* Accent 6 (Dark Gray) */
 }
 
 /* En-tête et navigation */
 .md-header {
+  background-color: var(--md-primary-fg-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -145,33 +27,51 @@
 /* Typographie */
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--md-text-color);
 }
 
+.md-content {
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: var(--md-primary-bg-color);
+}
+
+/* Titres */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: var(--md-primary-fg-color--dark);
 }
 
-h1 {
-  font-size: 2.5em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.md-content h1 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
   padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
 }
 
-h2 {
-  font-size: 1.8em;
-  margin-top: 1.5em;
+.md-content h2 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #eaecef;
 }
 
 /* Liens */
-a {
+.md-content a:not(.md-button) {
   color: var(--md-primary-fg-color);
-  transition: color 0.2s ease;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(83, 103, 122, 0.4);
+  transition: color 0.2s, border-bottom-color 0.2s;
 }
 
-a:hover {
+.md-content a:not(.md-button):hover {
+  color: var(--md-primary-fg-color--dark);
+  border-bottom-color: rgba(65, 90, 119, 0.9);
+}
+
+/* Liens secondaires */
+.md-nav__link:not(.md-nav__container):hover {
   color: var(--md-accent-fg-color);
-  text-decoration: underline;
 }
 
 /* Boutons */
@@ -183,7 +83,7 @@ a:hover {
 }
 
 .md-button:hover {
-  background-color: var(--md-primary-fg-color--light);
+  background-color: var(--md-primary-fg-color--dark);
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -193,39 +93,118 @@ a:hover {
 }
 
 .md-button--primary:hover {
-  background-color: #ffa726;
+  background-color: var(--md-primary-fg-color--light);
 }
 
 /* Tableaux */
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1em 0;
+.md-typeset table:not([class]) {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-th {
-  background-color: var(--md-primary-fg-color--light);
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color--dark);
+  color: white;
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) tr:nth-child(2n) {
+  background-color: var(--md-accent-bg-color);
+}
+
+/* Notes et avertissements (Admonitions) */
+.md-typeset .admonition {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.note {
+  border-left-color: var(--md-primary-fg-color--dark);
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .admonition.warning {
+  border-left-color: var(--md-accent-highlight);
+}
+
+/* Code block enhancements */
+.md-typeset pre > code {
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+
+/* Citation */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color--dark);
+  background-color: var(--md-accent-bg-color);
+  color: var(--md-text-color);
+}
+
+/* Pied de page */
+.md-footer {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-footer-copyright {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Barre de navigation latérale */
+.md-nav__item .md-nav__link--active {
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+.md-nav__item .md-nav__link:hover {
+  color: var(--md-primary-fg-color--light);
+}
+
+/* Animation sur les cartes de services */
+.service-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: var(--md-accent-fg-color);
+}
+
+/* Logo MDMY GROUP */
+.md-header__button.md-logo {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.md-header__button.md-logo img {
+  height: 2rem;
+}
+
+/* Barre de recherche */
+.md-search__form {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+}
+
+.md-search__input {
   color: white;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-/* Notes et avertissements */
-.admonition {
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.admonition-title {
-  font-weight: 500;
+.md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Formulaire de contact */
@@ -242,7 +221,7 @@ form label {
   display: block;
   margin-bottom: 0.5em;
   font-weight: 500;
-  color: #333;
+  color: var(--md-text-color);
 }
 
 form input,
@@ -267,37 +246,60 @@ form button {
 }
 
 form button:hover {
-  background-color: var(--md-primary-fg-color--light);
-}
-
-/* Pied de page */
-.md-footer {
   background-color: var(--md-primary-fg-color--dark);
 }
 
-/* Responsive design */
+/* Onglets de navigation */
+.md-tabs__link {
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  opacity: 1;
+}
+
+/* Adaptations responsive */
 @media screen and (max-width: 76.1875em) {
   .md-nav--primary .md-nav__title {
     background-color: var(--md-primary-fg-color);
   }
 }
 
-/* Animation sur les cartes de services */
-.service-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Logo MDMY GROUP */
-.md-header__button.md-logo img {
-  height: 2rem;
+/* Print-specific styles */
+@media print {
+  .md-typeset {
+    line-height: 1.4;
+    color: black;
+  }
+  
+  .md-typeset a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+  
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 1cm !important;
+  }
+  
+  .md-typeset pre {
+    white-space: pre-wrap;
+  }
+  
+  .md-sidebar, .md-header, .md-tabs, .md-footer {
+    display: none !important;
+  }
+  
+  /* Add page breaks before major sections */
+  h1, h2 {
+    page-break-before: always;
+    color: black;
+  }
+  
+  /* Avoid page breaks inside code blocks and tables */
+  pre, table {
+    page-break-inside: avoid;
+  }
 }
