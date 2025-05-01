@@ -36,17 +36,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides/</loc>
+         <loc>https://www.mdmygroup.com/docs/documentation-generale/guide-charte-graphique/</loc>
          <lastmod>2025-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides/guide-1/</loc>
+         <loc>https://www.mdmygroup.com/docs/documentation-generale/introduction/</loc>
          <lastmod>2025-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides/guide-2/</loc>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-api/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-github/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-icon8-download/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-shopify-devops/</loc>
+         <lastmod>2025-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-shopify-menu/</loc>
          <lastmod>2025-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
