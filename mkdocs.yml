@@ -79,22 +79,27 @@ extra_stylesheets:
 # Navigation structure
 nav:
   - Accueil: index.md
-  - Démarrage: getting-started.md
-  - Services:
-    - services/index.md
-    - Web Design: services/web-design.md
-    - Stratégie Digitale: services/digital-strategy.md
-    - E-Commerce: services/e-commerce.md
-    - Hébergement & Support: services/hosting-support.md
-  - Guides:
-    - guides/index.md
-    - Guide 1: guides/guide-1.md
-    - Guide 2: guides/guide-2.md
-  - Référence:
-    - reference/index.md
-    - API: reference/api-reference.md
-  - À Propos: about.md
-  - Contact: contact.md
+  - Documentation Générale:
+    - Introduction: documentation-generale/introduction.md
+    - Guide de la charte graphique: documentation-generale/guide-charte-graphique.md
+  - Guides Techniques:
+    - guides-techniques/index.md
+    - Guide API: guides-techniques/guide-api.md
+    - Guide Github: guides-techniques/guide-github.md
+    - Gide Shopify DevOps: guides-techniques/guide-shopify-devops.md
+  # Sections cachées (commentées)
+  # - Démarrage: getting-started.md
+  # - Services:
+  #   - services/index.md
+  #   - Web Design: services/web-design.md
+  #   - Stratégie Digitale: services/digital-strategy.md
+  #   - E-Commerce: services/e-commerce.md
+  #   - Hébergement & Support: services/hosting-support.md
+  # - Référence:
+  #   - reference/index.md
+  #   - API: reference/api-reference.md
+  # - À Propos: about.md
+  # - Contact: contact.md
 
 # Extra configuration
 extra:
