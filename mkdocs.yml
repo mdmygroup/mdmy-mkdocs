@@ -1,6 +1,6 @@
-site_name: MDMY Documentation
-site_description: Technical and business documentation hub
-site_url: https://example.com/
+site_name: Documentation MDMY GROUP
+site_description: Centre de documentation technique et commerciale
+site_url: https://www.mdmygroup.com/docs/
 
 # Repository
 repo_name: mdmy-mkdocs
@@ -8,12 +8,12 @@ repo_url: https://github.com/mdmy-group/mdmy-mkdocs
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2025 MDMY Group
+copyright: Copyright &copy; 2024-2025 MDMY GROUP SAS
 
 # Theme configuration
 theme:
   name: material
-  language: en
+  language: fr
   features:
     - navigation.tabs
     - navigation.sections
@@ -27,17 +27,17 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: indigo
+      primary: blue
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        name: Passer au mode sombre
     - scheme: slate
-      primary: indigo
+      primary: blue
       accent: indigo
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Passer au mode clair
   font:
     text: Roboto
     code: Roboto Mono
@@ -68,7 +68,7 @@ plugins:
   - search
   - print-site:
       add_to_navigation: true
-      print_page_title: 'Print Documentation'
+      print_page_title: 'Imprimer la Documentation'
   - minify:
       minify_html: true
 
@@ -78,16 +78,23 @@ extra_stylesheets:
 
 # Navigation structure
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
+  - Accueil: index.md
+  - Démarrage: getting-started.md
+  - Services:
+    - services/index.md
+    - Web Design: services/web-design.md
+    - Stratégie Digitale: services/digital-strategy.md
+    - E-Commerce: services/e-commerce.md
+    - Hébergement & Support: services/hosting-support.md
   - Guides:
     - guides/index.md
     - Guide 1: guides/guide-1.md
     - Guide 2: guides/guide-2.md
-  - Reference:
+  - Référence:
     - reference/index.md
-    - API Reference: reference/api-reference.md
-  - About: about.md
+    - API: reference/api-reference.md
+  - À Propos: about.md
+  - Contact: contact.md
 
 # Extra configuration
 extra:
@@ -96,6 +103,8 @@ extra:
       link: https://github.com/mdmy-group
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/mdmygroup
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/mdmygroup
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
@@ -103,8 +112,8 @@ extra:
     provider: mike
     default: latest
   consent:
-    title: Cookie consent
+    title: Consentement aux cookies
     description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for.
+      Nous utilisons des cookies pour reconnaître vos visites répétées et vos préférences, ainsi que 
+      pour mesurer l'efficacité de notre documentation et déterminer si les utilisateurs 
+      trouvent ce qu'ils recherchent.

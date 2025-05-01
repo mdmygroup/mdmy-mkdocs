@@ -1,107 +1,71 @@
-# MDMY Documentation
+# Documentation MDMY GROUP
 
-This repository contains the documentation site for MDMY Group, built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+Ce repository contient la documentation officielle de MDMY GROUP, générée avec MkDocs et le thème Material.
 
-## Getting Started
+## À propos de MDMY GROUP
 
-### Prerequisites
+MDMY GROUP est une entreprise française innovante fondée le 23 janvier 2024, spécialisée dans la création de sites web sur-mesure et le développement de stratégies digitales pour les TPE, PME et artisans. Notre mission est d'accompagner les petites entreprises françaises dans leur transformation digitale avec des solutions adaptées et efficaces.
 
-- Python 3.9 or higher
-- pip (Python package manager)
+## Structure de la documentation
 
-### Installation
+La documentation est organisée selon la structure suivante :
+- **Accueil** : Présentation générale de MDMY GROUP
+- **Démarrage** : Guide pour commencer à travailler avec MDMY GROUP
+- **Services** : Description détaillée des services offerts
+- **Guides** : Tutoriels et guides pratiques
+- **Référence** : Documentation technique et références API
+- **À Propos** : Informations sur l'entreprise et l'équipe
+- **Contact** : Informations de contact et formulaire
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/mdmy-group/mdmy-mkdocs.git
-   cd mdmy-mkdocs
-   ```
+## Installation locale
 
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   
-   # On Windows
-   venv\Scripts\activate
-   
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
+Pour exécuter la documentation en local, suivez ces étapes :
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Clonez ce repository :
+```bash
+git clone https://github.com/mdmy-group/mdmy-mkdocs.git
+cd mdmy-mkdocs
+```
 
-## Local Development
+2. Installez les dépendances :
+```bash
+pip install -r requirements.txt
+```
 
-To run the documentation site locally:
-
+3. Lancez le serveur de développement :
 ```bash
 mkdocs serve
 ```
 
-This will start a development server at `http://127.0.0.1:8000/`. The site will automatically reload when you make changes to the content.
+4. Ouvrez votre navigateur à l'adresse [http://localhost:8000](http://localhost:8000)
 
-## Building the Static Site
+## Construction et déploiement
 
-To build the static site:
+Pour générer une version statique du site :
 
 ```bash
 mkdocs build
 ```
 
-This will create a `site` directory with the built static site.
+Les fichiers générés seront placés dans le répertoire `site/`.
 
-## Deployment
+## Contribution
 
-### GitHub Pages
+Si vous souhaitez contribuer à cette documentation :
 
-This repository is configured to automatically deploy to GitHub Pages when changes are pushed to the `main` branch using GitHub Actions.
-
-### Manual Deployment
-
-To manually deploy the site to GitHub Pages:
-
+1. Créez une branche pour vos modifications :
 ```bash
-mkdocs gh-deploy --force
+git checkout -b ma-nouvelle-fonctionnalite
 ```
 
-### Netlify Deployment
+2. Effectuez vos modifications
 
-This repository also includes a `netlify.toml` file for easy deployment on Netlify. To deploy on Netlify:
+3. Soumettez une pull request sur GitHub
 
-1. Push the repository to GitHub
-2. Connect the repository to Netlify
-3. Netlify will automatically detect the configuration and build settings
+## Licence
 
-## Documentation Structure
+Ce projet est la propriété de MDMY GROUP SAS. Tous droits réservés.
 
-```
-/docs
-├── index.md              # Homepage
-├── getting-started.md    # Getting started guide
-├── about.md              # About page
-├── /guides               # User guides section
-│   ├── index.md          # Overview of guides
-│   ├── guide-1.md        # Specific guides
-│   ├── guide-2.md
-├── /reference            # Reference documentation
-│   ├── index.md          # Overview of reference docs
-│   ├── api-reference.md  # API documentation
-```
+## Contact
 
-## Contributing
-
-1. Create a new branch for your changes
-2. Make your changes to the documentation
-3. Submit a pull request for review
-
-### Adding New Pages
-
-1. Create a new Markdown file in the appropriate directory under `/docs`
-2. Add the page to the navigation in `mkdocs.yml`
-
-## License
-
-Copyright © 2025 MDMY Group
+Pour toute question concernant cette documentation, contactez-nous à [contact@mdmygroup.com](mailto:contact@mdmygroup.com)

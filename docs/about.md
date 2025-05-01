@@ -1,53 +1,77 @@
-# About MDMY Group
+# À Propos de MDMY GROUP
 
-## Our Mission
+## Notre Mission
 
-At MDMY Group, we are dedicated to [your mission statement here]. Since our founding in [year], we have been committed to delivering high-quality [products/services] and innovative solutions to our clients worldwide.
+Chez MDMY GROUP, notre mission est d'accompagner les TPE, PME et artisans français dans la création et le développement de leur présence digitale. Depuis notre fondation le 23 janvier 2024, nous sommes engagés à fournir des sites web sur-mesure et des applications web innovantes, tout en élaborant des stratégies digitales complètes pour aider nos clients à maximiser leur visibilité et leur impact en ligne.
 
-## Our Products & Services
+## Nos Services
 
-### Product Line
+### Web Design
 
-- **Product A**: Brief description of Product A and its key features
-- **Product B**: Brief description of Product B and its key features
-- **Product C**: Brief description of Product C and its key features
+- **Sites Web Sur-Mesure** : Création de sites personnalisés adaptés à votre identité et à vos objectifs
+- **Refonte de Sites Existants** : Modernisation et optimisation de votre présence web actuelle
+- **Interfaces Responsives** : Design adaptatif pour une expérience optimale sur tous les appareils
+- **Intégration No-Code** : Solutions permettant une gestion autonome de votre contenu
 
-### Service Offerings
+### Stratégie Digitale
 
-- **Service X**: Details about Service X and its benefits
-- **Service Y**: Details about Service Y and its benefits
-- **Service Z**: Details about Service Z and its benefits
+- **Optimisation SEO** : Amélioration de votre visibilité dans les moteurs de recherche
+- **Marketing de Contenu** : Création et diffusion de contenus pertinents pour votre audience
+- **Gestion des Réseaux Sociaux** : Animation et développement de votre présence sociale
+- **Formation Personnalisée** : Accompagnement pour vous rendre autonome dans votre stratégie digitale
 
-## Our Team
+### E-Commerce
 
-MDMY Group is led by a team of industry experts with decades of combined experience in [relevant industry]. Our leadership team includes:
+- **Création de Boutiques en Ligne** : Solutions e-commerce adaptées à vos produits et services
+- **Optimisation du Taux de Conversion** : Stratégies pour transformer vos visiteurs en clients
+- **Solutions de Paiement et Logistique** : Intégration sécurisée des processus essentiels
+- **Intégration Omnicanale** : Cohérence entre vos différents canaux de vente
 
-- **[Name]**, CEO - Brief bio
-- **[Name]**, CTO - Brief bio
-- **[Name]**, Head of Product - Brief bio
+### Hébergement & Support
 
-## Contact Information
+- **Hébergement Sécurisé** : Solutions d'hébergement fiables avec stockage SSD illimité
+- **Gestion de Domaine** : Enregistrement et administration de vos noms de domaine
+- **Support Technique** : Assistance dédiée pour résoudre rapidement vos problèmes
+- **Maintenance Préventive** : Surveillance et optimisation régulières de votre site web
 
-### Main Office
+## Notre Équipe
 
-MDMY Group Headquarters  
-123 Business Street  
-Business District, City 12345  
-Country
+MDMY GROUP est dirigé par une équipe de quatre entrepreneurs formés en France, partageant une vision commune d'impact et de croissance à long terme :
 
-### Get in Touch
+- **Yohann Bouvy**, Chef de Projet - Supervise la planification et la coordination des projets web
+- **Mathieu Régnier**, Responsable de Contenu - Chargé de la rédaction et de l'optimisation du contenu digital
+- **Dimitri Bogacz**, Designer UX/UI - Assure un design intuitif et convivial pour les utilisateurs
+- **Matthieu Lépicier**, Développeur Web - Implémente les fonctionnalités à partir des spécifications de design
 
-- **General Inquiries**: info@example.com
-- **Support**: support@example.com
-- **Careers**: careers@example.com
-- **Phone**: +1 (555) 123-4567
+## Notre Positionnement
 
-## Legal Information
+MDMY GROUP se distingue par une approche clé en main, offrant un accompagnement complet de l'audit digital à la gestion opérationnelle quotidienne. Nos principaux différenciateurs sont :
 
-- [Privacy Policy](https://example.com/privacy)
-- [Terms of Service](https://example.com/terms)
-- [Cookie Policy](https://example.com/cookies)
+- **Expertise** : Solutions digitales sur-mesure pour les petites entreprises et artisans
+- **Technologie** : Outils et pratiques de développement à la pointe
+- **ROI** : Performance mesurable et résultats commerciaux tangibles
+
+## Informations Légales
+
+- **Raison sociale** : MDMY GROUP
+- **Forme juridique** : Société par Actions Simplifiée (SAS)
+- **Date de création** : 23 janvier 2024
+- **SIREN** : 984 182 527
+- **Siège social** : 9 Rue des Colonnes, 75002 Paris, France
+
+## Nous Contacter
+
+- **Email** : [contact@mdmygroup.com](mailto:contact@mdmygroup.com)
+- **Téléphone** : +33 6 99 41 05 87
+- **Site web** : [www.mdmygroup.com](https://www.mdmygroup.com)
+- **Adresse** : 9 Rue des Colonnes, 75002 Paris, France
+
+## Politique de Confidentialité et Mentions Légales
+
+- [Politique de Confidentialité](privacy-policy.md)
+- [Mentions Légales](legal-notice.md)
+- [Conditions Générales de Vente](terms-of-service.md)
 
 ---
 
-*Last updated: April 2025*
+*Dernière mise à jour : 30 avril 2025*

@@ -1,88 +1,81 @@
-# Getting Started
+# Guide de Démarrage
 
-This guide will help you get started with MDMY products and services quickly and efficiently.
+## Bienvenue chez MDMY GROUP
 
-## Prerequisites
+Ce guide vous aidera à comprendre notre approche et nos services pour développer efficacement votre présence digitale. Que vous soyez une TPE, une PME ou un artisan, nous avons des solutions adaptées à vos besoins et à votre budget.
 
-Before you begin, ensure you have:
+## Notre Philosophie
 
-- An account with MDMY Group
-- Basic understanding of [relevant technology/domain]
-- [Any other prerequisites]
+Chez MDMY GROUP, nous croyons que chaque entreprise mérite une présence digitale de qualité qui reflète son identité et ses valeurs. Notre mission est de vous accompagner dans cette transformation digitale avec des solutions sur-mesure et un accompagnement personnalisé tout au long du processus.
 
-## Installation
+## Comment Nous Travaillons
 
-### Step 1: Download the Software
+### 1. Première Prise de Contact
 
-```bash
-# Example command to download or install
-curl -O https://example.com/download/mdmy-tool
-```
+Tout commence par un échange initial où nous prenons le temps de vous connaître et de comprendre votre activité, vos objectifs et vos attentes. Cette étape essentielle nous permet de cerner précisément vos besoins.
 
-### Step 2: Configure Your Environment
+[Prendre rendez-vous](contact.md){: .md-button }
 
-Create a configuration file in your project directory:
+### 2. Analyse et Audit
 
-```yaml
-# Example configuration
-api_key: YOUR_API_KEY
-environment: production
-debug: false
-```
+En fonction de votre situation actuelle, nous réalisons :
 
-### Step 3: Run Initial Setup
+- Un audit de votre présence digitale existante (si applicable)
+- Une analyse de votre marché et de votre concurrence
+- Une évaluation des opportunités digitales pour votre entreprise
 
-```bash
-# Example setup command
-mdmy-tool setup --init
-```
+### 3. Proposition Personnalisée
 
-## Basic Usage
+Sur la base de notre analyse, nous vous présentons une proposition détaillée comprenant :
 
-Here's a simple example of how to use our main product:
+- Les solutions recommandées pour répondre à vos objectifs
+- Un planning prévisionnel de réalisation
+- Un devis transparent et sans surprise
 
-```python
-# Python example code
-from mdmy import Client
+### 4. Réalisation du Projet
 
-# Initialize the client
-client = Client(api_key="your_api_key")
+Une fois la proposition validée, notre équipe se met au travail :
 
-# Perform an action
-result = client.perform_action(parameter="value")
-print(result)
-```
+- Conception et design adaptés à votre identité visuelle
+- Développement technique selon les meilleures pratiques
+- Tests rigoureux pour garantir qualité et performance
 
-## Next Steps
+### 5. Formation et Accompagnement
 
-Now that you've set up the basics, you might want to explore:
+Nous ne vous laissons pas seul après la livraison :
 
-- [Guide 1](guides/guide-1.md): Learn about feature X
-- [Guide 2](guides/guide-2.md): Advanced configurations
-- [API Reference](reference/api-reference.md): Full API documentation
+- Formation à l'utilisation de vos nouveaux outils digitaux
+- Documentation détaillée pour une utilisation autonome
+- Support technique selon la formule choisie
 
-## Common Issues
+## Nos Services en Bref
 
-### Problem: Connection Errors
+MDMY GROUP propose une gamme complète de services pour répondre à tous vos besoins digitaux :
 
-If you experience connection errors, check:
+- [**Web Design**](services/web-design.md) - Sites web sur-mesure et responsives
+- [**Stratégie Digitale**](services/digital-strategy.md) - SEO, réseaux sociaux et marketing de contenu
+- [**E-Commerce**](services/e-commerce.md) - Solutions de vente en ligne adaptées
+- [**Hébergement & Support**](services/hosting-support.md) - Services d'hébergement fiables et support technique
 
-1. Your network connection
-2. API key validity
-3. Server status at [status.example.com](https://status.example.com)
+## Pour Qui Travaillons-Nous ?
 
-### Problem: Performance Issues
+Nos services sont particulièrement adaptés pour :
 
-For optimal performance:
+- **TPE et PME** cherchant à développer leur présence en ligne
+- **Artisans** souhaitant valoriser leur savoir-faire sur le web
+- **Commerçants** désireux de se lancer dans le e-commerce
+- **Professionnels libéraux** voulant renforcer leur visibilité locale
 
-- Use connection pooling
-- Implement caching strategies
-- Follow our [performance optimization guide](guides/guide-2.md)
+## Prochaines Étapes
 
-## Support
+Prêt à lancer votre projet digital ? Voici comment procéder :
 
-If you need additional help, see our [support options](index.md#support) on the homepage.
+1. Explorez nos différents [services](services/index.md) pour en savoir plus
+2. Consultez nos [guides spécifiques](guides/index.md) pour des informations détaillées
+3. [Contactez-nous](contact.md) pour discuter de votre projet
 
 ---
 
-*Last updated: April 2025*
+*Vous avez des questions ? Notre équipe est à votre disposition pour y répondre et vous accompagner dans votre projet digital.*
+
+[Nous contacter](contact.md){: .md-button .md-button--primary }

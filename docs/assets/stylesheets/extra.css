@@ -123,3 +123,181 @@
 .md-content__inner > :first-child {
   margin-top: 0;
 }
+
+/* Styles personnalisés pour MDMY GROUP */
+
+:root {
+  --md-primary-fg-color: #0052cc;
+  --md-primary-fg-color--light: #4d8ae8;
+  --md-primary-fg-color--dark: #00368a;
+  --md-accent-fg-color: #ff9900;
+}
+
+/* En-tête et navigation */
+.md-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Typographie */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  color: var(--md-primary-fg-color--dark);
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+}
+
+/* Liens */
+a {
+  color: var(--md-primary-fg-color);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
+}
+
+/* Boutons */
+.md-button {
+  background-color: var(--md-primary-fg-color);
+  color: white !important;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.md-button:hover {
+  background-color: var(--md-primary-fg-color--light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.md-button--primary {
+  background-color: var(--md-accent-fg-color);
+}
+
+.md-button--primary:hover {
+  background-color: #ffa726;
+}
+
+/* Tableaux */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+th {
+  background-color: var(--md-primary-fg-color--light);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Notes et avertissements */
+.admonition {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admonition-title {
+  font-weight: 500;
+}
+
+/* Formulaire de contact */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 1em;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  color: #333;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+form button {
+  background-color: var(--md-primary-fg-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+/* Pied de page */
+.md-footer {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Responsive design */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-primary-fg-color);
+  }
+}
+
+/* Animation sur les cartes de services */
+.service-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo MDMY GROUP */
+.md-header__button.md-logo img {
+  height: 2rem;
+}
