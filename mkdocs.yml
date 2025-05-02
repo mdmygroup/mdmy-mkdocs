@@ -80,7 +80,7 @@ extra_stylesheets:
 nav:
   - Accueil: index.md
   - Documentation Générale:
-    - Introduction: documentation-generale/introduction.md
+    - documentation-generale/index.md
     - Guide de la charte graphique: documentation-generale/guide-charte-graphique.md
   - Guides Techniques:
     - guides-techniques/index.md
