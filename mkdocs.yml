@@ -1,6 +1,6 @@
-site_name: Documentation MDMY GROUP
+site_name: Documentation
 site_description: Centre de documentation technique et commerciale
-site_url: https://www.mdmygroup.com/docs/
+site_url: https://www.docs.mdmygroup.com/
 
 # Repository
 repo_name: mdmy-mkdocs
@@ -8,11 +8,12 @@ repo_url: https://github.com/mdmy-group/mdmy-mkdocs
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2024-2025 MDMY GROUP SAS
+copyright: Copyright &copy; 2025 MDMY GROUP SAS
 
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   features:
     - navigation.tabs
@@ -27,13 +28,13 @@ theme:
     - toc.follow
   palette:
     - scheme: default
-      primary: "#53677a"  # Muted Blue - Primary Text and Icons
+      primary: "#53677a"   # Muted Blue - Primary Text and Icons
       accent: "#415a77"    # Dark Blue - Accent 1
       toggle:
         icon: material/toggle-switch-off-outline
         name: Passer au mode sombre
     - scheme: slate
-      primary: "#53677a"  # Muted Blue - Primary Text and Icons
+      primary: "#53677a"   # Muted Blue - Primary Text and Icons
       accent: "#7fcdb8"    # Soft Green - Accent 3
       toggle:
         icon: material/toggle-switch
@@ -41,10 +42,12 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.ico
-  logo: assets/logo.png
+  favicon: public/favicon/favicon.ico
+  logo: public/logo/logo_white.png
   icon:
     logo: logo
+  dark_mode_icon: material/toggle-switch-off-outline
+  generator: false  # This will remove "Made with Material for MkDocs" from the footer
 
 # Extensions
 markdown_extensions:
@@ -66,9 +69,6 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - print-site:
-      add_to_navigation: true
-      print_page_title: 'Imprimer la Documentation'
   - minify:
       minify_html: true
 
@@ -86,28 +86,15 @@ nav:
     - guides-techniques/index.md
     - Guide API: guides-techniques/guide-api.md
     - Guide Github: guides-techniques/guide-github.md
-    - Gide Shopify DevOps: guides-techniques/guide-shopify-devops.md
-  # Sections cachées (commentées)
-  # - Démarrage: getting-started.md
-  # - Services:
-  #   - services/index.md
-  #   - Web Design: services/web-design.md
-  #   - Stratégie Digitale: services/digital-strategy.md
-  #   - E-Commerce: services/e-commerce.md
-  #   - Hébergement & Support: services/hosting-support.md
-  # - Référence:
-  #   - reference/index.md
-  #   - API: reference/api-reference.md
-  # - À Propos: about.md
-  # - Contact: contact.md
+    - Guide Icon8 Download: guides-techniques/guide-icon8-download.md
+    - Guide Shopify DevOps: guides-techniques/guide-shopify-devops.md
+    - Guide Shopify Menu: guides-techniques/guide-shopify-menu.md
 
 # Extra configuration
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mdmy-group
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/mdmygroup
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/company/mdmygroup
   analytics:

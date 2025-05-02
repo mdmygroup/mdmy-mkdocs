@@ -156,6 +156,16 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* Remove "Made with Material for MkDocs" text */
+.md-footer-copyright__highlight {
+  display: none;
+}
+
+/* Additional CSS to hide any generator text in footer */
+.md-footer-meta .md-footer-meta__inner .md-footer-copyright span:nth-child(2) {
+  display: none;
+}
+
 /* Barre de navigation latérale */
 .md-nav__item .md-nav__link--active {
   color: var(--md-accent-fg-color);
@@ -264,6 +274,99 @@ form button:hover {
 @media screen and (max-width: 76.1875em) {
   .md-nav--primary .md-nav__title {
     background-color: var(--md-primary-fg-color);
+  }
+}
+
+/* PDF Download Button Styles */
+.pdf-download-button {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 10rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.md-header-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.pdf-icon {
+  display: inline-flex;
+  margin-right: 0.4rem;
+}
+
+.pdf-logo-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: none; /* Hidden by default, shown only when printing */
+}
+
+.pdf-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Print-specific styles */
+@media print {
+  .md-typeset {
+    line-height: 1.4;
+    font-size: 12pt;
+    color: black;
+  }
+  
+  .md-typeset a {
+    color: black !important;
+    text-decoration: underline !important;
+    border-bottom: none !important;
+  }
+  
+  .md-content__inner {
+    margin: 0 !important;
+    padding: 1cm !important;
+  }
+  
+  .md-typeset pre {
+    white-space: pre-wrap;
+    border: 1px solid #ddd;
+  }
+  
+  .md-sidebar, 
+  .md-header, 
+  .md-tabs, 
+  .md-footer, 
+  .md-announce, 
+  .md-button,
+  .md-search {
+    display: none !important;
+  }
+  
+  /* Show the logo in print mode */
+  .pdf-printing .pdf-logo-container {
+    display: block !important;
+  }
+  
+  /* Add page breaks before major sections */
+  h1, h2 {
+    page-break-before: always;
+    color: black;
+  }
+  
+  h1:first-child {
+    page-break-before: avoid;
+  }
+  
+  /* Avoid page breaks inside code blocks and tables */
+  pre, table {
+    page-break-inside: avoid;
+  }
+  
+  /* Include background colors in the print output */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
 

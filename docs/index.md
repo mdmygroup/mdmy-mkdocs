@@ -11,10 +11,6 @@ Bienvenue sur le centre de documentation officiel de MDMY GROUP. Ce site contien
 - **Compatible Mobile** : Accédez à la documentation en déplacement depuis votre appareil mobile.
 - **Imprimable** : Imprimez n'importe quelle page ou section pour une consultation hors ligne.
 
-## Pour Commencer
-
-Pour débuter, consultez notre [Guide de démarrage](getting-started.md) qui présente nos services et notre approche.
-
 ## Notre Mission
 
 Chez MDMY GROUP, notre mission est d'accompagner les TPE, PME et artisans français dans la création et le développement de leur présence digitale. Nous créons des sites web sur-mesure et des applications web innovantes, tout en concevant des stratégies digitales complètes pour aider nos clients à maximiser leur visibilité et leur impact en ligne.
@@ -23,9 +19,22 @@ Chez MDMY GROUP, notre mission est d'accompagner les TPE, PME et artisans franç
 
 | Section | Description |
 | ------- | ----------- |
-| [Services](services/index.md) | Découvrez en détail nos offres de services |
-| [Guides](guides/index.md) | Instructions et tutoriels pas à pas |
-| [Référence](reference/index.md) | Références techniques et documentation API |
+| [Documentation Générale](documentation-generale/introduction.md) | Introduction et guide de la charte graphique |
+| [Guides Techniques](guides-techniques/index.md) | Guides techniques détaillés pour les API, GitHub, Icon8, et Shopify |
+
+### Documentation Générale
+
+Notre documentation générale vous offre une [Introduction](documentation-generale/introduction.md) complète à nos services ainsi qu'un [Guide de la charte graphique](documentation-generale/guide-charte-graphique.md) détaillé.
+
+### Guides Techniques
+
+Nous proposons plusieurs guides techniques spécialisés :
+
+- [Guide API](guides-techniques/guide-api.md) - Tout ce que vous devez savoir sur l'utilisation de nos API
+- [Guide GitHub](guides-techniques/guide-github.md) - Bonnes pratiques pour l'utilisation de GitHub
+- [Guide Icon8 Download](guides-techniques/guide-icon8-download.md) - Comment télécharger et utiliser les icônes d'Icon8
+- [Guide Shopify DevOps](guides-techniques/guide-shopify-devops.md) - Procédures DevOps pour les projets Shopify
+- [Guide Shopify Menu](guides-techniques/guide-shopify-menu.md) - Configuration et gestion des menus Shopify
 
 ## Support
 
@@ -37,4 +46,4 @@ Si vous avez besoin d'aide au-delà de ce qui est couvert dans notre documentati
 
 ---
 
-*Dernière mise à jour : Avril 2025*
+*Dernière mise à jour : Mai 2025*
