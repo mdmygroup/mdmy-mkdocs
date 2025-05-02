@@ -1,112 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://www.mdmygroup.com/docs/</loc>
+         <loc>https://www.docs.mdmygroup.com/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/about/</loc>
+         <loc>https://www.docs.mdmygroup.com/legal-notice/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/contact/</loc>
+         <loc>https://www.docs.mdmygroup.com/privacy-policy/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/getting-started/</loc>
+         <loc>https://www.docs.mdmygroup.com/terms-of-service/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/legal-notice/</loc>
+         <loc>https://www.docs.mdmygroup.com/documentation-generale/guide-charte-graphique/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/privacy-policy/</loc>
+         <loc>https://www.docs.mdmygroup.com/documentation-generale/introduction/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/terms-of-service/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/documentation-generale/guide-charte-graphique/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/guide-api/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/documentation-generale/introduction/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/guide-github/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/guide-icon8-download/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-api/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/guide-shopify-devops/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-github/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-icon8-download/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-shopify-devops/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/guides-techniques/guide-shopify-menu/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/reference/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/reference/api-reference/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/services/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/services/digital-strategy/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/services/e-commerce/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/services/hosting-support/</loc>
-         <lastmod>2025-05-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.mdmygroup.com/docs/services/web-design/</loc>
+         <loc>https://www.docs.mdmygroup.com/guides-techniques/guide-shopify-menu/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
