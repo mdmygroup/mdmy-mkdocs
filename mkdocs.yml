@@ -94,9 +94,11 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/mdmy-group
+      link: https://github.com/mdmygroup
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/company/mdmygroup
+      link: https://linkedin.com/company/mdmy-group.
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/mdmy_group/
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
