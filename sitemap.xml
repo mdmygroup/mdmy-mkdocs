@@ -21,12 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/documentation-generale/guide-charte-graphique/</loc>
+         <loc>https://www.docs.mdmygroup.com/documentation-generale/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/documentation-generale/introduction/</loc>
+         <loc>https://www.docs.mdmygroup.com/documentation-generale/brand-identity/guide-charte-graphique/</loc>
+         <lastmod>2025-05-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/system-prompts/mdmy-context/</loc>
          <lastmod>2025-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
