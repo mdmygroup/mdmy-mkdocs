@@ -2,10 +2,6 @@
 
 Cette section contient des guides et des techniques.
 
-## Documentation Disponible
-
-{% include "toc_folder_children.html" %}
-
 
 ---
 

@@ -46,8 +46,6 @@ theme:
   logo: public/logo/logo_white.png
   icon:
     logo: logo
-  dark_mode_icon: material/toggle-switch-off-outline
-  generator: false  # This will remove "Made with Material for MkDocs" from the footer
 
 # Extensions
 markdown_extensions:
@@ -76,7 +74,7 @@ plugins:
       minify_html: true
 
 # Extra CSS for custom styling
-extra_stylesheets:
+extra_css:
   - assets/stylesheets/extra.css
 
 # Extra configuration
