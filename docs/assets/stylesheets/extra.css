@@ -17,7 +17,6 @@
 /* En-tête et navigation */
 .md-header {
   background-color: var(--md-primary-fg-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* Liens secondaires */
