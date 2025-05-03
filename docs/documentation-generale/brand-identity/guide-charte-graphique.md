@@ -1,4 +1,4 @@
-# MDMY Group -  Website Color Theme / PowerPoint Presentation
+# Color Theme
 
 ### Base Colors
 - **Primary Background**: `#f5f5f5` (Light Gray) - Keeps the background soft and neutral, enhancing content readability.

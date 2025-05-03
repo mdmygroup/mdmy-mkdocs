@@ -1,4 +1,4 @@
-# Bienvenue sur la Documentation MDMY GROUP
+# Accueil
 
 ## Présentation
 
