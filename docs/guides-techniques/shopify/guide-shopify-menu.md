@@ -1,4 +1,4 @@
-# Shopify Templates, Pages, and Menus: Best Practices
+# Shopify Navigation
 
 When building a Shopify website, it’s crucial to properly structure templates, pages, and menus to ensure flexibility and maintainability. This document outlines **why** we use unique templates for pages and **how** to implement them.
 

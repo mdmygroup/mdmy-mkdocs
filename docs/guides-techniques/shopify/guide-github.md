@@ -1,4 +1,4 @@
-# Introduction to GitHub for Shopify Store Management
+# GitHub and Shopify
 
 ***
 ## What is GitHub?

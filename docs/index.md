@@ -30,32 +30,6 @@ Si vous avez besoin d'aide au-delà de ce qui est couvert dans notre documentati
 - Appelez-nous au +33 6 99 41 05 87
 - Visitez notre site web [www.mdmygroup.com](https://www.mdmygroup.com)
 
-## 📚 Documentation Disponible
-
-{% for section in navigation %}
-  {% if section.is_section %}
-### {{ section.title }}
-
-    {% for child in section.children %}
-      {% if child.is_section %}
-#### {{ child.title }}
-
-        {% for page in child.children %}
-          {% if page.is_page and not page.url.endswith("index.html") %}
-- [{{ page.title or page.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ page.url }})
-          {% endif %}
-        {% endfor %}
-
-      {% elif child.is_page and not child.url.endswith("index.html") %}
-- [{{ child.title or child.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ child.url }})
-      {% endif %}
-    {% endfor %}
-
-  {% elif section.is_page and not section.url.endswith("index.html") %}
-- [{{ section.title or section.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ section.url }})
-  {% endif %}
-{% endfor %}
-
 
 ---
 

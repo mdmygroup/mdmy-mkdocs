@@ -1,4 +1,4 @@
-# Setting Up Shopify Development Workflow with GitHub Integration
+# Shopify DevOps
 #
 ***
 

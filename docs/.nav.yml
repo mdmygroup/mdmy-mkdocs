@@ -7,23 +7,9 @@ ignore:
 nav: 
   - Accueil: index.md
   - Documentation Générale: documentation-generale
-  - Guides Techniques: guides-techniques
-  - Mentions légales:
-    - Mentions légales: legal-notice.md
-    - Politique de confidentialité: privacy-policy.md
-    - Conditions d'utilisation: terms-of-service.md
+  - "*"
 
-
-# /index.md
-# - Identité visuelle:
-#   - Guide de la charte graphique: documentation-generale/brand-identity/guide-charte-graphique.md
-# - Prompts:
-#   - System Prompts:
-#     - Contexte MDMY: documentation-generale/prompts/system-prompts/mdmy-context.md
-
-#   /index.md
-# - Guide API: guides-techniques/guide-api.md
-# - Guide Github: guides-techniques/guide-github.md
-# - Guide Icon8 Download: guides-techniques/guide-icon8-download.md
-# - Guide Shopify DevOps: guides-techniques/guide-shopify-devops.md
-# - Guide Shopify Menu: guides-techniques/guide-shopify-menu.md
+  # - Mentions légales:
+  #   - Mentions légales: legal-notice.md
+  #   - Politique de confidentialité: privacy-policy.md
+  #   - Conditions d'utilisation: terms-of-service.md

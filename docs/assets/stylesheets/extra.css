@@ -37,3 +37,9 @@
 .md-footer-copyright {
   color: rgba(255, 255, 255, 0.7);
 }
+
+/* Force code block wrapping */
+.md-typeset pre code {
+  white-space: pre-wrap;       /* Wrap long lines */
+  word-break: break-word;      /* Break at word boundaries */
+}

@@ -1,4 +1,4 @@
-# 📘 Comprendre les APIs : Guide pour les non-techniciens
+# 📘 APIs
 
 ---
 

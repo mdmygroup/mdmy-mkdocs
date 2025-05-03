@@ -1,4 +1,4 @@
-# Downloading from Icons8
+# Icons8 Downloads
 
 Follow these steps to download an icon from [Icons8](https://icons8.com/):
 
