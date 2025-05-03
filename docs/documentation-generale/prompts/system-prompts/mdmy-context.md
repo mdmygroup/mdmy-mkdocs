@@ -1,4 +1,4 @@
-# MDMY GROUP Context
+# MDMY Group Context
 
 This is a system prompt for the MDMY GROUP context. It provides the AI with information about the company, its mission, services, and team. This prompt is used to set the context for the AI's responses and ensure they align with the company's values and priorities.
 
