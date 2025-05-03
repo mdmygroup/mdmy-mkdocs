@@ -2,14 +2,14 @@
 
 Cette section contient des guides et des techniques.
 
-## Guides Disponibles
+## Documentation Disponibles
 
-* [Guide API: Comprendre les APIs pour les non-techniciens](guide-api.md)
-* [Guide GitHub: Introduction à GitHub pour la gestion des boutiques Shopify](guide-github.md)
-* [Guide Icon8: Téléchargement d'icônes](guide-icon8-download.md)
-* [Guide DevOps Shopify: Configuration du workflow de développement avec GitHub](guide-shopify-devops.md)
-* [Guide Shopify: Bonnes pratiques pour les modèles, pages et menus](guide-shopify-menu.md)
+{% for page in nav %}
+  {% if page.parent and page.parent.title == "Guide" %}
+- [{{ page.title }}]({{ page.url }})
+  {% endif %}
+{% endfor %}
 
 ---
 
-*Last updated: May 2025*
+*Dernière mise à jour : mai 2025*
