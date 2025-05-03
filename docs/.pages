@@ -1,0 +1,6 @@
+title: MDMY Docs
+collapse: false  # or true
+order:
+  - index.md
+  - guide/
+  - reference/
