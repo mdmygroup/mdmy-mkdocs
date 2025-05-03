@@ -2,13 +2,10 @@
 
 Cette section contient des guides et des techniques.
 
-## Documentation Disponibles
+## Documentation Disponible
 
-{% for page in nav %}
-  {% if page.parent and page.parent.title == "Guide" %}
-- [{{ page.title }}]({{ page.url }})
-  {% endif %}
-{% endfor %}
+{% include "toc_folder_children.html" %}
+
 
 ---
 

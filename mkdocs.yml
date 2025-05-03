@@ -70,7 +70,8 @@ markdown_extensions:
 plugins:
   - search
   - awesome-nav
-  - macros
+  - macros:
+      include_dir: docs/macros
   - minify:
       minify_html: true
 

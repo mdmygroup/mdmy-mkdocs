@@ -22,20 +22,6 @@ Chez MDMY GROUP, notre mission est d'accompagner les TPE, PME et artisans franç
 | [Documentation Générale](documentation-generale/introduction.md) | Introduction et guide de la charte graphique |
 | [Guides Techniques](guides-techniques/index.md) | Guides techniques détaillés pour les API, GitHub, Icon8, et Shopify |
 
-### Documentation Générale
-
-Notre documentation générale vous offre une [Introduction](documentation-generale/introduction.md) complète à nos services ainsi qu'un [Guide de la charte graphique](documentation-generale/guide-charte-graphique.md) détaillé.
-
-### Guides Techniques
-
-Nous proposons plusieurs guides techniques spécialisés :
-
-- [Guide API](guides-techniques/guide-api.md) - Tout ce que vous devez savoir sur l'utilisation de nos API
-- [Guide GitHub](guides-techniques/guide-github.md) - Bonnes pratiques pour l'utilisation de GitHub
-- [Guide Icon8 Download](guides-techniques/guide-icon8-download.md) - Comment télécharger et utiliser les icônes d'Icon8
-- [Guide Shopify DevOps](guides-techniques/guide-shopify-devops.md) - Procédures DevOps pour les projets Shopify
-- [Guide Shopify Menu](guides-techniques/guide-shopify-menu.md) - Configuration et gestion des menus Shopify
-
 ## Support
 
 Si vous avez besoin d'aide au-delà de ce qui est couvert dans notre documentation :
@@ -43,6 +29,33 @@ Si vous avez besoin d'aide au-delà de ce qui est couvert dans notre documentati
 - Contactez notre support à [contact@mdmygroup.com](mailto:contact@mdmygroup.com)
 - Appelez-nous au +33 6 99 41 05 87
 - Visitez notre site web [www.mdmygroup.com](https://www.mdmygroup.com)
+
+## 📚 Documentation Disponible
+
+{% for section in navigation %}
+  {% if section.is_section %}
+### {{ section.title }}
+
+    {% for child in section.children %}
+      {% if child.is_section %}
+#### {{ child.title }}
+
+        {% for page in child.children %}
+          {% if page.is_page and not page.url.endswith("index.html") %}
+- [{{ page.title or page.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ page.url }})
+          {% endif %}
+        {% endfor %}
+
+      {% elif child.is_page and not child.url.endswith("index.html") %}
+- [{{ child.title or child.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ child.url }})
+      {% endif %}
+    {% endfor %}
+
+  {% elif section.is_page and not section.url.endswith("index.html") %}
+- [{{ section.title or section.url.split('/')[-2]|replace('-', ' ')|capitalize }}]({{ section.url }})
+  {% endif %}
+{% endfor %}
+
 
 ---
 

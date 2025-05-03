@@ -303,7 +303,7 @@ Using a `pre-push` Git hook helps enforce the workflow policy of not pushing dir
     
         - name: Deploy to Shopify Staging
           run: |
-            shopify login --store your-staging-store.myshopify.com --password ${{ secrets.SHOPIFY_PASSWORD }}
+            shopify login --store your-staging-store.myshopify.com --password $secrets.SHOPIFY_PASSWORD
             shopify theme push --nodelete --unpublished
     ```
     
@@ -421,11 +421,11 @@ Using a `pre-push` Git hook helps enforce the workflow policy of not pushing dir
         - Implement feature flags in your Shopify theme code. Feature flags allow you to enable or disable features without deploying new code.
         - You can manage these flags through your theme settings or externally via a third-party service. This way, you can turn on new features for a controlled group of users.
             ```javascript
-            {% if settings.enable_new_feature %}
+            if settings.enable_new_feature
               <!-- New feature code here -->
-            {% else %}
+            else
               <!-- Existing feature code here -->
-            {% endif %}
+            endif
             ```
     - **Strategy 3: A/B Testing Tools**
         - Utilize A/B testing tools that integrate with Shopify, such as Google Optimize, to selectively roll out new features or changes to a portion of your traffic.
