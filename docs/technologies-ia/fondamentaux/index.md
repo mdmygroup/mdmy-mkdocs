@@ -9,6 +9,3 @@ Que vous découvriez l'intelligence artificielle ou que vous souhaitiez approfon
 ## Articles
 
 - [Types d'intelligence artificielle](types-ia.md) - Les différentes catégories d'IA et leurs caractéristiques
-- [Domaines d'application](domaines-application.md) - Comment l'IA transforme différents secteurs et métiers
-- [Données et éthique](donnees-et-ethique.md) - Gestion responsable des données et considérations éthiques
-- [Modèles et frameworks](modeles-et-frameworks.md) - Les technologies qui sous-tendent les systèmes d'IA modernes
