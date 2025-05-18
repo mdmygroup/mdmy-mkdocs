@@ -4,7 +4,7 @@ L'hébergement est un élément crucial de toute solution web. Chez MDMY GROUP, 
 
 ## Nos solutions d'hébergement privilégiées
 
-### Vercel {#vercel}
+### Vercel 
 
 **Vercel** est notre plateforme de prédilection pour l'hébergement des projets basés sur React et Next.js.
 
@@ -23,7 +23,7 @@ L'hébergement est un élément crucial de toute solution web. Chez MDMY GROUP, 
 - Sites statiques générés (SSG)
 - Applications avec Server-Side Rendering (SSR)
 
-### Netlify {#netlify}
+### Netlify 
 
 **Netlify** est notre choix pour l'hébergement de sites statiques et d'applications JAMstack.
 
@@ -42,7 +42,7 @@ L'hébergement est un élément crucial de toute solution web. Chez MDMY GROUP, 
 - Sites avec formulaires simples
 - Projets open-source
 
-### Render {#render}
+### Render 
 
 **Render** est notre solution polyvalente pour les projets nécessitant plus de flexibilité dans l'hébergement.
 
@@ -61,7 +61,7 @@ L'hébergement est un élément crucial de toute solution web. Chez MDMY GROUP, 
 - Applications conteneurisées
 - APIs et microservices
 
-### CMS-Based Hosting {#cms-based}
+### CMS-Based Hosting
 
 Certaines de nos solutions CMS incluent leur propre hébergement optimisé.
 
@@ -76,7 +76,7 @@ Certaines de nos solutions CMS incluent leur propre hébergement optimisé.
 - **Sécurité gérée** : mises à jour et correctifs automatiques
 - **Scaling automatique** : gestion des pics de trafic
 
-## Cloudflare : Notre couche de performance et sécurité {#cloudflare}
+## Cloudflare : Notre couche de performance et sécurité 
 
 Pour tous nos projets, nous utilisons **Cloudflare** comme couche supplémentaire de performance, sécurité et fiabilité.
 

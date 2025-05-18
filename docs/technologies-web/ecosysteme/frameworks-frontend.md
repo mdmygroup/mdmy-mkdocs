@@ -4,7 +4,7 @@ Chez MDMY GROUP, nous avons sélectionné plusieurs frameworks et bibliothèques
 
 ## Nos technologies de prédilection
 
-### Astro {#astro}
+### Astro
 
 **Astro** est notre choix privilégié pour les blogs et sites riches en contenu, où la performance et le SEO sont prioritaires.
 
@@ -21,7 +21,7 @@ Chez MDMY GROUP, nous avons sélectionné plusieurs frameworks et bibliothèques
 - Sites marketing à fort enjeu SEO
 - Projets nécessitant un temps de chargement minimal
 
-### MkDocs {#mkdocs}
+### MkDocs
 
 **MkDocs** est notre solution de référence pour la documentation technique, offrant simplicité et efficacité.
 
@@ -38,7 +38,7 @@ Chez MDMY GROUP, nous avons sélectionné plusieurs frameworks et bibliothèques
 - Wikis internes
 - Partage de connaissances techniques
 
-### Tailwind CSS {#tailwind}
+### Tailwind CSS
 
 **Tailwind CSS** est notre framework CSS utilitaire de prédilection pour tous types de projets web.
 
@@ -55,7 +55,7 @@ Chez MDMY GROUP, nous avons sélectionné plusieurs frameworks et bibliothèques
 - Projets nécessitant un design système cohérent
 - Développement rapide de prototypes et MVP
 
-### React {#react}
+### React
 
 **React** est notre bibliothèque JavaScript de référence pour les interfaces utilisateur dynamiques et interactives.
 
@@ -72,7 +72,7 @@ Chez MDMY GROUP, nous avons sélectionné plusieurs frameworks et bibliothèques
 - Projets nécessitant une maintenance à long terme
 - Équipes avec expertise JavaScript
 
-### Next.js {#nextjs}
+### Next.js
 
 **Next.js** est notre framework React de choix pour les applications web complètes et les sites nécessitant des fonctionnalités avancées.
 

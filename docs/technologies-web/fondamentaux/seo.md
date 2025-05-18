@@ -1,4 +1,4 @@
-# SEO : Optimisation pour les Moteurs de Recherche
+# SEO
 
 Le SEO (Search Engine Optimization) est un ensemble de pratiques visant à améliorer la visibilité d'un site web dans les résultats des moteurs de recherche. Une bonne stratégie SEO peut considérablement augmenter le trafic organique vers votre site.
 
