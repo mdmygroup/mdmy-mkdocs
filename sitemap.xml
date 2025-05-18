@@ -2,112 +2,197 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.docs.mdmygroup.com/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/brand-identity/guide-charte-graphique/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/interne/guide-icon8-download/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/system-prompts/mdmy-app-expert/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/system-prompts/mdmy-context/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/system-prompts/system-design-expert/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/system-prompts/system-prompt-generator/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/documentation-generale/prompts/user-prompts/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/general/guide-api/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/general/guide-cms/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/shopify/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/shopify/guide-github/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/shopify/guide-shopify-devops/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/shopify/guide-shopify-menu/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/squarespace/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/tech-stach/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/guides-techniques/webflow/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/hidden/legal-notice/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/hidden/privacy-policy/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/hidden/terms-of-service/</loc>
-         <lastmod>2025-05-04</lastmod>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/approche-technologique/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/backend-apis/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/deploiement/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/frameworks-frontend/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/hebergement/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/outils/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/shopify/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/squarespace/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/webflow/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/cms/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/frontend-backend/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/hebergement-domaine/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/types-de-sites/</loc>
+         <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
