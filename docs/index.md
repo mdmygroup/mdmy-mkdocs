@@ -22,6 +22,7 @@ Chez MDMY GROUP, notre mission est d'accompagner les TPE, PME et artisans franç
 | [Documentation Générale](documentation-generale/introduction.md) | Introduction et guide de la charte graphique |
 | [Guides Techniques](guides-techniques/index.md) | Guides techniques détaillés pour les API, GitHub, Icon8, et Shopify |
 | [Technologies Web](technologies-web/index.md) | Fondamentaux du web et écosystème technologique MDMY |
+| [Technologies IA](technologies-ia/index.md) | Intelligence artificielle : concepts fondamentaux et applications MDMY |
 
 ## Support
 
