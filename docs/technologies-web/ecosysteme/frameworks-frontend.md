@@ -116,17 +116,6 @@ En complément de nos frameworks principaux, nous utilisons régulièrement ces 
 - Comportements complexes (modals, dropdowns, etc.) gérés
 - Hautement personnalisable
 
-### tRPC / React Query
-
-Pour la gestion des données et la communication client-serveur, nous utilisons **tRPC** et **React Query**.
-
-#### Bénéfices :
-- Typage bout-en-bout
-- Gestion optimisée du cache
-- Invalidation intelligente
-- Requêtes parallèles et dépendantes
-- Gestion des erreurs et états de chargement
-
 ## Notre approche du frontend
 
 Notre philosophie de développement frontend repose sur plusieurs principes :

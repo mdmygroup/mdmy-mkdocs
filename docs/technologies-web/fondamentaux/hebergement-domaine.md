@@ -1,4 +1,4 @@
-# Hébergement web et noms de domaine
+# Hébergement et Domaine
 
 Pour qu'un site soit accessible sur Internet, il nécessite plusieurs éléments d'infrastructure essentiels. Comprendre ces éléments vous aide à mieux gérer votre présence en ligne.
 

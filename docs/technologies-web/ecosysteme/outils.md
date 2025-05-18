@@ -105,7 +105,6 @@ En plus de notre stack principale, nous utilisons divers outils pour améliorer 
 ### Design et UI/UX
 
 - **Figma** : Prototypage et design d'interfaces
-- **Adobe Creative Cloud** : Création et traitement d'images
 - **Framer Motion** : Animations et transitions fluides
 
 ### Développement et collaboration
@@ -125,7 +124,6 @@ En plus de notre stack principale, nous utilisons divers outils pour améliorer 
 
 - **Google Analytics** : Mesure d'audience
 - **Hotjar** : Analyse comportementale
-- **Plausible** : Analytics respectueux de la vie privée
 
 ## Comment nous sélectionnons nos outils
 

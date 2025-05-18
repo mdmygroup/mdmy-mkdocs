@@ -1,4 +1,4 @@
-# CMS : Gestion de contenu simplifiée
+# CMS
 
 Un **CMS (Content Management System)** ou Système de Gestion de Contenu est une application qui permet de créer, modifier et gérer le contenu d'un site web sans connaissances techniques avancées en programmation.
 

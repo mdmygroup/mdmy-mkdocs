@@ -6,7 +6,8 @@ ignore:
 
 nav: 
   - Accueil: index.md
-  - Documentation Générale: documentation-generale
+  - Technologies Web: technologies-web
+  - Technologies IA: technologies-ia
   - "*"
 
   # - Mentions légales:

@@ -1,4 +1,4 @@
-# Types de sites web
+# Types de Sites
 
 Il existe différents types de sites web, chacun conçu pour répondre à des objectifs spécifiques. Comprendre ces catégories aide à choisir la solution la plus adaptée à vos besoins.
 
