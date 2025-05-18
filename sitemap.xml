@@ -96,16 +96,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/backend-apis/</loc>
-         <lastmod>2025-05-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/deploiement/</loc>
-         <lastmod>2025-05-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/frameworks-frontend/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
@@ -121,22 +111,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/</loc>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/outils/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/shopify/</loc>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/outils/shopify/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/squarespace/</loc>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/outils/squarespace/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/cms-ecommerce/webflow/</loc>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/ecosysteme/outils/webflow/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -157,6 +147,11 @@
     </url>
     <url>
          <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/hebergement-domaine/</loc>
+         <lastmod>2025-05-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.docs.mdmygroup.com/technologies-web/fondamentaux/seo/</loc>
          <lastmod>2025-05-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
